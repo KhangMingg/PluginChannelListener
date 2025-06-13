@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.craftgpt'
+version = '1.1'
+
+repositories {
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    flatDir { dirs 'libs' }
+    maven { url = 'https://repo.codemc.org/repository/maven-public/' }
+    mavenCentral()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    compileOnly name: 'ProtocolLib'
+    compileOnly 'com.comphenix.protocol:ProtocolLib:4.8.0'
+    compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+jar {
+    archiveBaseName.set('PluginChannelLogger')
+    archiveVersion.set('1.1')
+    archiveClassifier.set('')
+}

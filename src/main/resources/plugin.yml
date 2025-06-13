@@ -1,0 +1,9 @@
+name: PluginChannelLogger
+main: me.craftgpt.pluginchannellogger.PluginChannelLogger
+version: 1.1
+api-version: 1.13
+depend: [ProtocolLib]
+commands:
+  pcl:
+    usage: /pcl <start|stop>
+    description: Toggle plugin channel logger on/off

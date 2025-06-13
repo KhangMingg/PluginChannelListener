@@ -1,0 +1,23 @@
+
+# IDE project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+
+# Ignore all HTML files everywhere
+*.html
+
