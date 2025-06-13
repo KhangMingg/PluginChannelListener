@@ -6,7 +6,11 @@
 - Paper/Spigot/anything can run plugin with 1.21+ (older version not tested)
 
 ## Usage:
-- /pcl start:
-start listening and log registered plugin channels
-- /pcl stop:
-stop listening and log registered plugin channels
+- /pcl (start/stop):
+start/stop listening and log registered plugin channels
+
+- /pcl logto console/log/both:
+choose where to log registered plugin channels:
+- console: only log to onsole
+- log: only log to PlayerPluginChannels.log
+- both: log to both
