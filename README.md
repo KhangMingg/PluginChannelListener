@@ -1,7 +1,7 @@
 > [!WARNING]  
 > ## **This plugin is only for development purpose, not suitable for normal SMPs!**
 
-## Installation:
+## Dependences:
 - ProtocolLib 5.3.0
 - Paper/Spigot/anything can run plugin with 1.21+ (older version not tested)
 
