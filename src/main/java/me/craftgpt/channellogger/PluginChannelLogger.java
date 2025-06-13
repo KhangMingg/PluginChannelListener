@@ -43,14 +43,16 @@ public class PluginChannelLogger extends JavaPlugin implements Listener {
 
         // ASCII art warning
         getLogger().warning(
-            "\n" +
-            "    __      __              _             __ \n" +
-            "   / /___  / /_  ____ _____(_)___  ____ _/ /_\n" +
-            "  / / __ \\/ __ \\/ __ `/ ___/ / __ \\/ __ `/ __/\n" +
-            " / / /_/ / / / / /_/ / /  / / /_/ / /_/ / /_  \n" +
-            "/_/\\____/_/ /_/\\__,_/_/  /_/\\____/\\__,_/\\__/  \n"
+                "\n" +
+                " _       __                 _             __\n" +
+                "| |     / /___ __________  (_)___  ____ _/ /\n" +
+                "| | /| / / __ `/ ___/ __ \\/ / __ \\/ __ `/ / \n" +
+                "| |/ |/ / /_/ / /  / / / / / / / / /_/ /_/  \n" +
+                "|__/|__/\\__,_/_/  /_/ /_/_/_/ /_/\\__, (_)   \n" +
+                "                                /____/      \n" +
+                "Warning!\n" +
+                "This mod is only meant for development purpose and not suitable for normal smp!\n"
         );
-
         // Register ProtocolLib packet listener
         ProtocolManager protocolManager = ProtocolLibrary.getProtocolManager();
         protocolManager.addPacketListener(new PacketAdapter(this, PacketType.Play.Client.CUSTOM_PAYLOAD) {
