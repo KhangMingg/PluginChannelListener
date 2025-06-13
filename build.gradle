@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'me.craftgpt'
-version = '1.1'
+version = '1.2'
 
 repositories {
     maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
@@ -26,6 +26,6 @@ targetCompatibility = '1.8'
 
 jar {
     archiveBaseName.set('PluginChannelLogger')
-    archiveVersion.set('1.1')
+    archiveVersion.set('1.2')
     archiveClassifier.set('')
 }
