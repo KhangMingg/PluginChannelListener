@@ -11,6 +11,6 @@ start/stop listening and log registered plugin channels
 
 - /pcl logto console/log/both:
 choose where to log registered plugin channels:
-- console: only log to onsole
+- console: only log to console
 - log: only log to PlayerPluginChannels.log
 - both: log to both
